@@ -1,0 +1,15 @@
+<resources>
+	<string name="app_name">Swivl</string>
+
+	<string name="menu_title_about">About</string>
+	<string name="about_text"><b>Test Task</b>\ngithub.com has public API to get list of users https://api.github.com/users.\nThere are helpfull parameters like per_page and since, check them.\nYou need to create android application, which allows to get list of github users loaded into ListView. Each row contains login, profile link (html_url) and avatar preview(100x100).\nClicking on avatar preview should result in opening bigger avatar version (about 400x400)\n\n<b>We expect application will:</b>\n\n- Allow to browse at least first 300 users ( more - is better, lazy loading is a big plus).\n- Implement some kind of image caching.\n- Show some kind of progress indicator if user waits for background task to complete, but do not block user interaction with application.\n- Allow Activity recreation during configuration change (like orientation change).\</string>
+	<string name="list_item_hint_text">Name GitHub User</string>
+
+	<string name="name_title">Name</string>
+	<string name="email_title">Email</string>
+	<string name="location_title">Location</string>
+
+	<string name="menu_title_blog">Blog</string>
+	<string name="menu_title_open_in_browser">Open profile in browser</string>
+
+</resources>
